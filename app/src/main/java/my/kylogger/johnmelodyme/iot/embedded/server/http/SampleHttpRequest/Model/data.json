@@ -1,8 +1,44 @@
 [
   {
-    "photo": 1,
+    "albumId": 1,
     "id": 1,
     "title": "Happy Moment With My Love \uD83E\uDD70",
-    "url":
+    "url": "",
+    "thumbnailUrl": ""
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+    "title": "A Chilling Drink With Her. Strawberry <3",
+    "url": "",
+    "thumbnailUrl": ""
+  },
+  {
+    "albumId": 1,
+    "id": 3,
+    "title": "",
+    "url": "",
+    "thumbnailUrl": ""
+  },
+  {
+    "albumId": 1,
+    "id": 4,
+    "title": "Happy Moment With My Love \uD83E\uDD70",
+    "url": "",
+    "thumbnailUrl": ""
+  },
+  {
+    "albumId": 1,
+    "id": 5,
+    "title": "Happy Moment With My Love \uD83E\uDD70",
+    "url": "",
+    "thumbnailUrl": ""
+  },
+  {
+    "albumId": 1,
+    "id": 6,
+    "title": "Happy Moment With My Love \uD83E\uDD70",
+    "url": "",
+    "thumbnailUrl": ""
   }
 ]
