@@ -1,3 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Sample Http Request</string>
+    <string name="app_error" tools:ignore="TypographyEllipsis">Something went wrong...Please try later!</string>
 </resources>

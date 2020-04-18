@@ -17,22 +17,24 @@ import java.util.List;
 
 import my.kylogger.johnmelodyme.iot.embedded.server.http.SampleHttpRequest.Model.ModelRequest;
 import my.kylogger.johnmelodyme.iot.embedded.server.http.SampleHttpRequest.R;
+import my.kylogger.johnmelodyme.iot.embedded.server.http.SampleHttpRequest.RequestActivity;
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomViewHolder> {
     private List<ModelRequest> datalist;
     private Context context;
 
-    public CustomAdapter(List<ModelRequest> datalist, Context context) {
+    public CustomAdapter(Context context, List<ModelRequest> datalist) {
         this.datalist = datalist;
         this.context = context;
     }
+
 
     static class CustomViewHolder extends RecyclerView.ViewHolder {
         private View view;
         private TextView theTextTitle;
         private ImageView theImage;
 
-        public CustomViewHolder(@NonNull View itemView) {
+         CustomViewHolder(View itemView) {
             super(itemView);
 
             view = itemView;
