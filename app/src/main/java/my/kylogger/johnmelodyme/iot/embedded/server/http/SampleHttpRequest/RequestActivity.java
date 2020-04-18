@@ -1,9 +1,10 @@
 package my.kylogger.johnmelodyme.iot.embedded.server.http.SampleHttpRequest;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class RequestActivity extends AppCompatActivity {
     public static final String TAG = "SampleHttpRequest";
@@ -14,4 +15,5 @@ public class RequestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.d(TAG, "onCreate: " + RequestActivity.class.getSimpleName());
     }
+
 }
